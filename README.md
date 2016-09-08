@@ -1,4 +1,4 @@
-# React Test ( based on Redux Todos Example)
+# React/Redux Todos
 
 This project is based on the [Redux Todos Example](https://github.com/reactjs/redux/tree/master/examples/todos).
 

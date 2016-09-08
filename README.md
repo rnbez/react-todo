@@ -4,11 +4,11 @@ This project is based on the [Redux Todos Example](https://github.com/reactjs/re
 
 ## Challenge
 Your chanllange is to implement the "Remove TODO" feature.
-The TODO component contains a red 'x' char after every message that, when this 'x' is clicked, needs to removed the TODO from the list.
+The TODO component contains a red 'x' char after every message that, when this 'x' is clicked, needs to remove the TODO from the list.
 
 ### Hints:
 * Start by looking at the todo component: ` src/components/Todo.js `
-* Use the ToggleTodo feature, already implement, as a guide
+* Use the ToggleTodo feature, already implemented, as a guide
 * You can remove an item from the list using: ` {{your list}}.filter(todo => todo.id !== {{id to remove}}) `
 
 ## Available Scripts

@@ -1,13 +1,22 @@
 import React, { PropTypes } from 'react'
 
 const Todo = ({ onClick, completed, text }) => (
-  <li
+  <li>
+    <span
     onClick={onClick}
     style={{
       textDecoration: completed ? 'line-through' : 'none'
     }}
-  >
+    >
     {text}
+    </span>
+    <span style={{
+      cursor: 'pointer',
+      color: 'red',
+      fontWeight: 'bold',
+      paddingLeft: '10px' 
+    }}
+     >x</span>
   </li>
 )
 

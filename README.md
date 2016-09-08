@@ -1,4 +1,4 @@
-# Redux Todos Example
+# React Test ( based on Redux Todos Example)
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app).
 

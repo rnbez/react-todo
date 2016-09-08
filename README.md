@@ -1,6 +1,15 @@
 # React Test ( based on Redux Todos Example)
 
-This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project is based on the [Redux Todos Example](https://github.com/reactjs/redux/tree/master/examples/todos).
+
+## Challenge
+Your chanllange is to implement the "Remove TODO" feature.
+The TODO component contains a red 'x' char after every message that, when this 'x' is clicked, needs to removed the TODO from the list.
+
+### Hints:
+* Start by looking at the todo component: ` src/components/Todo.js `
+* Use the ToggleTodo feature, already implement, as a guide
+* You can remove an item from the list using: ` {{your list}}.filter(todo => todo.id !== {{id to remove}}) `
 
 ## Available Scripts
 
@@ -32,11 +41,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Challenge
-Your chanllange is to implement the "Remove TODO" feature.
-The TODO component contains a red 'x' char after every message that, when this 'x' is clicked, needs to removed the TODO from the list.
-
-### Hints:
-* Start by looking at the todo component: ` src/components/Todo.js `
-* Use the ToggleTodo feature, already implement, as a guide
-* You can remove an item from the list using: ` {{your list}}.filter(todo => todo.id !== {{id to remove}}) `
